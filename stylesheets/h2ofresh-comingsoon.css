@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* h2ofresh-comingsoon.css (CC) 2007 Kiwi2do. Some Rights Reserved.
+ * Licensed under a Creative Commons License. See http://creativecommons.org/licenses/by/2.5/
+ * Purpose: basic structural style for h2ofresh.com
+ */
+ 
+body { margin:0; padding:0; font-family:"Trebuchet MS" font-size:small; font-weight:normal; color:#000; text-align:center; }
+body a:link, a:visited { color:#538B00; text-decoration:none;}
+body a:hover, a:focus { color:#538B00; text-decoration:underline; }
+img, img a {border:none;}
+* {margin:0; padding:0;}
+p {padding-top:8px; padding-bottom:8px;}
+
+#h2ofresh-com { overflow:visible; width:780px; height:480px; margin-top:0; margin-bottom:0; margin-left:auto; margin-right:auto; padding:0; text-align:center;}
+#container { overflow:visible; width:780px; height:400px; margin-top:80px; text-align:center;}

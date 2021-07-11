@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* h2ofresh.css (CC) 2007 - 2009. Influous. Some Rights Reserved.
+ * Licensed under a Creative Commons License. See http://creativecommons.org/licenses/by/3.0/
+ * Purpose: basic structural style for h2ofresh.com
+ */
+
+body { margin:0; padding-top:8px; font-family:Geneva, Helvetica, sans-serif; font-size:12px; color:#333; background:url(../images/mainbg.gif) repeat-x #E8EFFF; text-align:center; }
+body a:link, a:visited { color:#396AE6; text-decoration:none;}
+body a:hover, a:focus { text-decoration:underline;}
+img, img a {border:none;}
+* {margin:0; padding:0;}
+
+#container { width:780px; height:auto; margin-left:auto; margin-right:auto; overflow:visible; text-align:left;}
+#container #container-top { float:left; width:764px; height:139px; padding:18px 8px 0 8px; background:url(../images/pagebg_top.gif) no-repeat;}
+#container #container-middle { float:left; width:764px; height:auto; padding:12px 8px 12px 8px; background:url(../images/pagebg_middle.gif) repeat-y;}
+#container #container-bottom { float:left; width:764px; height:126px; padding:0 8px 0 8px; background:url(../images/pagebg_bottom.gif) no-repeat;}
+#container #container-bottom p { width:542px; height:126px; margin:0 15px 0 207px; background:url(../images/ripple_at_bottom.gif) no-repeat;}
+#container #copyright-bg { float:left; width:764px; height:45px; padding:0 8px 20px 8px; background:url(../images/copyright_bg.gif) no-repeat;}
+
+/* CONTAINER TOP NAVIGATIONS */
+#container #container-top #container-mainnav { float:left; width:764px; height:92px;}
+#container #container-top #container-subnav { float:left; width:759px; height:40px; margin:0 5px 10px 0px;}
+#container #container-top #container-mainnav #h2ofresh-logo { float:left; width:220px; height:92px;}
+#container #container-top #container-mainnav #mainnav { float:left; width:539px; height:92px;}
+#container #container-top #container-mainnav #mainnav #mainnav-top { float:left; width:539px; height:50px; margin:0 0 0 18px;}
+#container #container-top #container-mainnav #mainnav #mainnav-bottom { float:left; width:539px; height:42px;}
+#container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs { float:left; width:539px; height:42px;}
+#container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li { float:left; text-indent:-9999px; display:block; height:42px;}
+#container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li a { float:left; text-indent:-9999px; display:block; height:42px; background:url(../images/mainnav.gif) 0 0 no-repeat;}
+#container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li#home { width:96px;}
+#container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li#home a { width:96px; background-position:0 0;}
+#container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li#home a:hover, #container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li#home.selected a { width:96px; background-position:0 -42px;}
+#container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li#aboutus { width:113px;}
+#container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li#aboutus a { width:113px; background-position:-96px 0;}
+#container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li#aboutus a:hover, #container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li#aboutus.selected a { width:113px; background-position:-96px -42px;}
+#container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li#products-and-accessories { width:210px;}
+#container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li#products-and-accessories a { width:210px; background-position:-209px 0;}
+#container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li#products-and-accessories a:hover, #container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li#products-and-accessories.selected a { width:210px; background-position:-209px -42px;}
+#container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li#contactus { width:120px;}
+#container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li#contactus a { width:120px; background-position:-419px 0;}
+#container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li#contactus a:hover, #container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li#contactus.selected a { width:120px; background-position:-419px -42px;}
+#container #container-top #container-subnav #subnav { float:left; width:759px; height:21px; margin-top:19px; background:url(../images/subnav_bg.gif) top left no-repeat;}
+#container #container-top #container-subnav #subnav ul#subnav-tabs { float:left; width:322px; height:21px;}
+#container #container-top #container-subnav #subnav ul#subnav-tabs li { float:left; text-indent:-9999px; display:block; height:21px;}
+#container #container-top #container-subnav #subnav ul#subnav-tabs li a { float:left; text-indent:-9999px; display:block; height:21px; background:url(../images/subnav.gif) 0 0 no-repeat;}
+#container #container-top #container-subnav #subnav ul#subnav-tabs li#productinfo { width:207px;}
+#container #container-top #container-subnav #subnav ul#subnav-tabs li#productinfo a { width:207px; background-position:0 0;}
+#container #container-top #container-subnav #subnav ul#subnav-tabs li#productinfo a:hover, #container #container-top #container-subnav #subnav ul#subnav-tabs li#productinfo.selected a { width:207px; background-position:0 -21px;}
+#container #container-top #container-subnav #subnav ul#subnav-tabs li#anyquestions { width:115px;}
+#container #container-top #container-subnav #subnav ul#subnav-tabs li#anyquestions a { width:115px; background-position:-207px 0;}
+#container #container-top #container-subnav #subnav ul#subnav-tabs li#anyquestions a:hover, #container #container-top #container-subnav #subnav ul#subnav-tabs li#anyquestions.selected a { width:115px; background-position:-207px -21px;}
+
+/* CONTENT */
+#container #container-middle #index-left { float:left; width:340px; margin:0 2px 0 5px; display:block;}
+#container #container-middle #index-left #product-snippets { float:left; width:340px; height:227px;}
+#container #container-middle #index-left #content-orange-bg-middle { float:left; width:310px; height:400px;; padding:0 15px 0 15px; background:url(../images/index_left_orange_bg_middle.gif) top left repeat-y;}
+#container #container-middle #index-left #content-orange-bg-middle h1 { font-size:16px; padding:6px 0 6px 0;}
+#container #container-middle #index-left #content-orange-bg-middle h2 { font-size:12px; text-decoration:underline; padding:6px 0 6px 0;}
+#container #container-middle #index-left #content-orange-bg-middle p.promo-without-pic { width:310px; padding:8px 0 8px 0;}
+#container #container-middle #index-left #content-orange-bg-middle div.promo-with-pic { float:left; width:310px;}
+#container #container-middle #index-left #content-orange-bg-middle div.promo-with-pic div.promo-content { float:left; width:181px;}
+#container #container-middle #index-left #content-orange-bg-middle div.promo-with-pic div.promo-content p { width:175px; padding:8px 0 8px 0;}
+#container #container-middle #index-left #content-orange-bg-middle div.promo-with-pic div.promo-pic { float:right; width:126px; text-align:center;}
+#container #container-middle #index-left #content-orange-bg-bottom { float:left; width:340px; height:16px; background:url(../images/index_left_orange_bg_bottom.gif) top left no-repeat;}
+
+#container #container-middle #index-right { float:right; width:410px; margin:0 5px 0 2px; display:block;}
+#container #container-middle #index-right #index-picture { float:left; width:410px; height:227px;}
+#container #container-middle #index-right #content-blue-bg-middle { float:left; width:380px; height:400px; padding:0 15px 0 15px; background:url(../images/index_right_blue_bg_middle.gif) top left repeat-y;}
+#container #container-middle #index-right #content-blue-bg-middle h1 { font-size:16px; padding:6px 0 6px 0;}
+#container #container-middle #index-right #content-blue-bg-middle p { width:380px; padding:8px 0 8px 0;}
+#container #container-middle #index-right #content-blue-bg-middle ul#support-pointers { width:360px; height:auto; padding:0 0 0 20px;}
+#container #container-middle #index-right #content-blue-bg-middle ul#support-pointers li { padding:0 0 6px 0;}
+#container #container-middle #index-right #content-blue-bg-bottom { float:left; width:410px; height:16px; background:url(../images/index_right_blue_bg_bottom.gif) top left no-repeat;}
+
+#container #container-middle #section { float:left; width:754px; height:auto; padding:0 5px 0 5px;}
+#section .section-image { float:left; width:754px; height:227px; padding-bottom:30px;}
+#section .section-title { float:left; width:744px; height:auto; padding:0 5px 10px 5px;}
+.section-title .section-titlewithicons { float:left; width:200px; height:auto;}
+.section-title .section-iconswithtitle { float:right; width:544px; height:auto; text-align:right;}
+.section-iconswithtitle ul.smallicons { float:right; width:544px; height:auto; text-align:right;}
+ul.smallicons li { float:right; width:58px; height:50px; text-align:center; list-style:none; }
+ul.smallicons li a:link, ul.smallicons li a:visited { text-decoration:none; border:none;}
+ul.smallicons li a:hover, ul.smallicons li a:focus { text-decoration:none; border:none;}
+#section .section-content { float:left; width:734px; height:auto; padding:0 5px 0 10px;}
+.section-content h1 { font-size:200%; color:#ffbb19; padding:10px 0 10px 0;}
+.section-content h2 { font-size:150%; padding:10px 0 10px 0;}
+.section-content h3 { font-size:125%; padding:10px 0 8px 0;}
+.section-content h4 { font-size:120%; padding:10px 0 8px 0;}
+.section-content h5 { font-size:110%; padding:10px 0 8px 0; font-weight:bold;}
+.section-content h6 { font-size:100%; padding:12px 0 0 0; font-weight:bold;}
+.section-content p { padding:8px 22px 8px 0;}
+.section-content ul.unorderlistdisplay { width:690px; height:auto; padding:0 0 0 30px;}
+.section-content ul.unorderlistdisplay li { list-style:disc;}
+.section-content ul.unorderlistdisplay li.unorderlist { list-style:disc; padding-left:30px;}
+.section-content ol.orderlistdisplay { width:690px; height:auto; padding:0 0 0 30px;}
+ol.orderlistdisplay li { padding-bottom:4px;}
+.section-content .content-left { float:left; width:446px; height:auto; text-align:justify;}
+.content-left p { width:420px; padding:6px 25px 6px 0}
+.content-left div.product_synopsis { border-left:solid 2px #FFBB19; height:auto; width:410px; font-size:110%; font-style:italic; margin:16px 26px 10px 0;}
+div.product_synopsis p { width:374px; padding:0 26px 0 10px;}
+.content-left .left-productimage { float:left; width:256px; margin-top:10px; margin-bottom:10px;}
+.content-left .right-productimage { float:left; width:146px; padding:0 0 0 0; margin-bottom:20px;}
+ul.content-pointers { width:400px; height:auto; padding:8px 0 8px 20px; list-style:disc;}
+ul.content-pointers li { padding:4px 0 4px 10px; }
+ol.content-subpointers { padding:8px 0 8px 20px; list-style:lower-roman;}
+ol.content-subpointers li { padding:4px 0 4px 10px;}
+.section-content .content-right { float:right; width:288px; height:auto;}
+.content-right h2 { float:left; width:280px; padding:0 0 3px 6px;}
+.content-right p { float:left; width:280px; padding:0 0 3px 6px; line-height:1.5em;}
+.content-right .right-product { text-align:center;}
+.content-right .right-product h2 { float:left; width:280px; padding:0 0 3px 6px;}
+.content-right .right-product p { float:left; width:280px; padding:0 0 3px 6px; line-height:1.5em;}
+.content-right .right-bestbuy { float:left; width:70px; height:auto; text-align:center;}
+.content-right .right-bestbuytext { float:right; width:218px; height:auto; text-align:center; padding-top:10px;}
+.content-right .how-to-install { float:right; width:140px; height:auto; padding:10px 0 0 0; display:block;}
+.content-right .how-to-install ul.installationlist { float:left; width:120px; height:auto; padding:4px 0 4px 20px; list-style:disc; display:block;}
+.content-right .how-to-install ul.installationlist li { padding:2px 0 2px 0; text-align:left;}
+#section .section-flashcontent { float:left; width:754px; height:auto;}
+.section-content ol.faqslist { width:690px; height:auto; padding:8px 0 8px 30px;}
+ol.faqslist li { padding-bottom:15px;}
+ol.faqslist li h5 { font-size:110%; padding:10px 0 8px 0; font-weight:bold;}
+ol.faqslist div.accordian-box { width:650px;}
+ol.faqslist p { width:650px;}
+ol.faqslist li ol.sub-faqslist { width:640px; height:auto; padding:8px 0 8px 30px;}
+ol.sub-faqslist li { padding-bottom:10px;}
+#noflashcontent { text-align:center;}
+
+/* COPYRIGHT */
+#copyright-bg #copyright-left { float:left; width:410px; height:45px; padding-left:12px;}
+#copyright-left p { width:410px; height:21px;}
+#copyright-left ul#legalinfo { float:left; width:410px; height:15px;}
+ul#legalinfo li { float:left; list-style:none; display:block; }
+ul#legalinfo li a:link, ul#legalinfo li a:visited { color:#fff; text-decoration:none;}
+ul#legalinfo li a:hover, ul#legalinfo li a:focus { color:#fff; text-decoration:underline;}
+ul#legalinfo li#privacy-policy { width:80px; height:15px; border-right:1px solid #fff;}
+ul#legalinfo li#site-terms { width:80px; height:15px; text-align:center;}
+
+/* VIDEO DIALOG BOX */
+#overlay { background-color:#fff; visibility:hidden; position:absolute; top:0; left:0; width:100%; z-index:90; }
+.videoDialog { width:320px; position:absolute; overflow:hidden; border:none; z-index:200; text-align:left; display:none; }
+#videonoflash { width:316px; height:304px; overflow:visible; border:2px solid #cccccc; background-color:#FFFFFF; text-align:center;}
+#videonoflash p { width:306px; padding:4px 5px 4px 5px;}
+
+/* CLASS OF FONTS */
+.read-more { text-align:right; font-style:italic; font-size:10px; }
+.read-more a:link, .read-more a:visited { color:#723B00; text-decoration:none;}
+.read-more a:hover, .read-more a:focus { color:#723B00; text-decoration:underline;}
+.faqs-close { text-align:right; font-style:italic; font-size:10px; display:none; }
+.faqs-close a:link, .faqs-close a:visited { color:#723B00; text-decoration:none; }
+.faqs-close a:hover, .faqs-close a:focus { color:#723B00; text-decoration:underline; }
+.h2ofresh-type-1 { font-family:Geneva, Helvetica, sans-serif; font-size:11px; font-weight:bold;}
+.h2ofresh-type-2 { font-family:Geneva, Helvetica, sans-serif; font-size:10px; font-weight:normal;}
+.h2ofresh-type-3 { font-family:Geneva, Helvetica, sans-serif; font-size:12px; font-weight:normal;}
