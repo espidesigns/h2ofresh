@@ -15,7 +15,7 @@ img, img a {border:none;}
 #container #container-middle { float:left; width:764px; height:auto; padding:12px 8px 12px 8px; background:url(../images/pagebg_middle.gif) repeat-y;}
 #container #container-bottom { float:left; width:764px; height:126px; padding:0 8px 0 8px; background:url(../images/pagebg_bottom.gif) no-repeat;}
 #container #container-bottom p { width:542px; height:126px; margin:0 15px 0 207px; background:url(../images/ripple_at_bottom.gif) no-repeat;}
-#container #copyright-bg { float:left; width:764px; height:45px; padding:0 8px 20px 8px; background:url(../images/copyright_bg.gif) no-repeat;}
+#container #copyright-bg { float:left; width:764px; height:45px; padding:0 8px 20px 8px; background:url(../images/copyright_bg.gif) no-repeat; color: white;}
 
 /* CONTAINER TOP NAVIGATIONS */
 #container #container-top #container-mainnav { float:left; width:764px; height:92px;}
