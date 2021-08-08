@@ -22,8 +22,34 @@ img, img a {border:none;}
 #container #container-top #container-subnav { float:left; width:759px; height:40px; margin:0 5px 10px 0px;}
 #container #container-top #container-mainnav #h2ofresh-logo { float:left; width:220px; height:92px;}
 #container #container-top #container-mainnav #mainnav { float:left; width:539px; height:92px;}
-#container #container-top #container-mainnav #mainnav #mainnav-top { float:left; width:539px; height:50px; margin:0 0 0 18px;}
+/* #container #container-top #container-mainnav #mainnav #mainnav-top { float:left; width:539px; height:50px; margin:0 0 0 18px;} */
 #container #container-top #container-mainnav #mainnav #mainnav-bottom { float:left; width:539px; height:42px;}
+#mainnav-top {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: start;
+    align-items: auto;
+    align-content: flex-end;
+    margin: 0;
+    height:50px;
+}
+#mainnav-top .mainnav-top__right__phone {
+    font-size: 2em;
+    color: transparent;
+}
+#mainnav-top .mainnav-top__left {
+    flex: 1 1 55%;
+    margin: 8px 0;
+    align-self:flex-end;
+    text-align: left;
+}
+#mainnav-top .mainnav-top__right {
+    flex: 1 1 45%;
+    margin: 8px 0;
+    align-self:flex-end;
+    text-align: right;
+}
 #container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs { float:left; width:539px; height:42px;}
 #container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li { float:left; text-indent:-9999px; display:block; height:42px;}
 #container #container-top #container-mainnav #mainnav-bottom ul#mainnav-tabs li a { float:left; text-indent:-9999px; display:block; height:42px; background:url(../images/mainnav.gif) 0 0 no-repeat;}
