@@ -100,7 +100,8 @@ img, img a {border:none;}
 
 #container #container-middle #section { float:left; width:754px; height:auto; padding:0 5px 0 5px;}
 #section .section-image { float:left; width:754px; height:227px; padding-bottom:30px;}
-#section .section-title { float:left; width:744px; height:auto; padding:0 5px 10px 5px;}
+/* #section .section-title { float:left; width:744px; height:auto; padding:0 5px 10px 5px;} */
+.section-title {color: #FFBB19; font-size: 2.2em; font-weight: bold; padding: 0; }
 .section-title .section-titlewithicons { float:left; width:200px; height:auto;}
 .section-title .section-iconswithtitle { float:right; width:544px; height:auto; text-align:right;}
 .section-iconswithtitle ul.smallicons { float:right; width:544px; height:auto; text-align:right;}
@@ -142,6 +143,7 @@ ol.content-subpointers li { padding:4px 0 4px 10px;}
 .content-right .how-to-install ul.installationlist { float:left; width:120px; height:auto; padding:4px 0 4px 20px; list-style:disc; display:block;}
 .content-right .how-to-install ul.installationlist li { padding:2px 0 2px 0; text-align:left;}
 #section .section-flashcontent { float:left; width:754px; height:auto;}
+#section .section-productlists { float:left; width:754px; height:auto;}
 .section-content ol.faqslist { width:690px; height:auto; padding:8px 0 8px 30px;}
 ol.faqslist li { padding-bottom:15px;}
 ol.faqslist li h5 { font-size:110%; padding:10px 0 8px 0; font-weight:bold;}
@@ -177,3 +179,156 @@ ul#legalinfo li#site-terms { width:80px; height:15px; text-align:center;}
 .h2ofresh-type-1 { font-family:Geneva, Helvetica, sans-serif; font-size:11px; font-weight:bold;}
 .h2ofresh-type-2 { font-family:Geneva, Helvetica, sans-serif; font-size:10px; font-weight:normal;}
 .h2ofresh-type-3 { font-family:Geneva, Helvetica, sans-serif; font-size:12px; font-weight:normal;}
+body {
+    margin: 0;
+    /* font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+    font-size: 0.75rem;
+    /* font-weight: 400; */
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    /* background-color: #fff; */
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+/* Bootstrap - Headings */
+.h1, h1 {
+    font-size: 1.75rem;
+}
+.h2, h2 {
+    font-size: 1.618rem;
+}
+.h3, h3 {
+    font-size: 1.5rem;
+}
+.h4, h4 {
+    font-size: 1.25rem;
+}
+.h5, h5 {
+    font-size: 1.125rem;
+}
+.h6, h6 {
+    font-size: 1rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+/* Bootstrap - Images */
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+/* Bootstrap - Cards */
+.showbox .card {
+    max-width: 360px;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+.card-link:hover {
+    text-decoration: none;
+}
+.card-img-top {
+    width: 100%;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+.card-title {
+    margin-bottom: .75rem;
+}
+.card-subtitle {
+    margin-top: -.375rem;
+    margin-bottom: 0;
+}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+.card-footer:last-child {
+    border-radius: 0 0 calc(.25rem - 1px) calc(.25rem - 1px);
+}
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+.card-deck {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+@media (min-width: 576px){
+    .card-deck {
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+}
+.card-deck .card {
+    margin-bottom: 15px;
+}
+@media (min-width: 576px){
+    .card-deck .card {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex: 1 0 0%;
+        flex: 1 0 0%;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-right: 15px;
+        margin-bottom: 0;
+        margin-left: 15px;
+    }
+}
+/* Bootstrap Utilities */
+.text-center {
+    text-align: center!important;
+}
+.float-right {
+    float: right!important;
+}
+.m-0 { margin: 0!important; }
+.m-1 { margin: .25rem!important; }
+.m-2 { margin: .5rem!important; }
+.m-3 { margin: 1rem!important; }
+.m-4 { margin: 1.5rem!important; }
+.m-5 { margin: 3rem!important; }
+
+.p-0 { margin: 0!important; }
+.p-1 { margin: .25rem!important; }
+.p-2 { margin: .5rem!important; }
+.p-3 { margin: 1rem!important; }
+.p-4 { margin: 1.5rem!important; }
+.p-5 { margin: 3rem!important; }
